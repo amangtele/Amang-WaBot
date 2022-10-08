@@ -17,8 +17,10 @@ bot.addCommand(
 	},
 	async (message, match) => {
 		const date = new Date()
-		let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+		let CMD_HELP = `
+		
+╭────────────────╮
+  𝐀𝐦𝐚𝐧𝐠-𝐔𝐬𝐞𝐫𝐛𝐨𝐭
 ╰────────────────╯
 
 ╭────────────────
@@ -94,7 +96,7 @@ bot.addCommand(
 
 		let msg =
 			'```' +
-			`╭═══ LEVANTER ═══⊷
+			`╭═══ 𝐀𝐦𝐚𝐧𝐠-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
